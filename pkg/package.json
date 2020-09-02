@@ -1,0 +1,15 @@
+{
+  "name": "rust-demo-test",
+  "collaborators": [
+    "Nancy Chan <Chan-N@iehp.org>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rust_demo_test_bg.wasm",
+    "rust_demo_test.js",
+    "rust_demo_test.d.ts"
+  ],
+  "module": "rust_demo_test.js",
+  "types": "rust_demo_test.d.ts",
+  "sideEffects": false
+}
