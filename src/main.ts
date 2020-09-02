@@ -8,5 +8,9 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
+// platformBrowserDynamic().bootstrapModule(AppModule)
+//   .catch(err => console.error(err));
+
+import('./app/app.module')
+  .then(x => platformBrowserDynamic().bootstrapModule(x.AppModule))
   .catch(err => console.error(err));
